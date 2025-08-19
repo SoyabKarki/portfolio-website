@@ -8,7 +8,7 @@ const Card = () => {
     };
 
     const handleResumeClick = () => {
-        window.open('./assets/Soyab_Karki_Resume_Junior_CS.pdf', '_blank');
+        window.open('/Soyab_Karki_Resume_Junior_CS.pdf', '_blank');
     };    
     
     const handleSocialClick = (url) => {
@@ -237,6 +237,7 @@ const StyledWrapper = styled.div`
 
   .social-card:hover {
     border-color: #00ca4e;
+    cursor: pointer;
   }
 
   .social-icon {
